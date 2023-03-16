@@ -1,0 +1,19 @@
+To run program:
+1) Clone project from GitHub:
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+
+2)Keep track of directory path
+
+3a) In Command Line/Powershell:
+If Maven is installed and has proper ClassPath:
+mvn clean install
+java -jar target/logs-0.0.1-SNAPSHOT.jar
+
+3b) IntelliJ IDEA:
+Import project
+Open pom.xml file to install dependencies from Maven
+Open LogsApplication.java
+Select "Current File" from build
+Hit Run
+
+4) Direct preferred web browser to: http://localhost:8080/new
