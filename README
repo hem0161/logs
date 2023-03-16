@@ -6,6 +6,7 @@ https://docs.github.com/en/repositories/creating-and-managing-repositories/cloni
 
 3a) In Command Line/Powershell:
 If Maven is installed and has proper ClassPath:
+Navigate CL to directory where project was placed
 mvn clean install
 java -jar target/logs-0.0.1-SNAPSHOT.jar
 
